@@ -1,0 +1,157 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "热点",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		
+		
+        ,{
+            "path" : "pages/index/nav1/video",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "景区视频",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/nav1/map",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "景区地图",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/nav1/tickets",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "景区门票",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/nav1/hotel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "酒店预订",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/article/article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/aboutUs/aboutUs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/info/attractions/attractions",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/info/buy/buy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/info/buy/web",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/info/routes/routes",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "旅游",
+		"navigationBarBackgroundColor": "#161722",
+		"backgroundColor": "#FFFFFF"
+		
+	},
+	"tabBar":{
+		"backgroundColor": "#171821",
+		"selectedColor":"#FE2C55",
+		"color":"#8B8C91",
+		"borderStyle":"black",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabBar/index`.png",
+				"selectedIconPath":"static/tabBar/index.png"
+			},
+			{
+				"text":"热点",
+				"pagePath":"pages/news/news",
+				"iconPath":"static/tabBar/news`.png",
+				"selectedIconPath":"static/tabBar/news.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/me/me",
+				"iconPath":"static/tabBar/me`.png",
+				"selectedIconPath":"static/tabBar/me.png"
+			}
+		]
+		
+	}
+}

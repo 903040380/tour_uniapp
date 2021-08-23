@@ -1,0 +1,1 @@
+<view><swiper circular="true" autoplay="true" interval="3000"><block tt:for="{{swipers}}" tt:for-item="item" tt:for-index="__i0__" tt:key="id"><swiper-item><image src="{{item.img_src}}"></image></swiper-item></block></swiper><view class="title"><view class="h1">常熟市兵马俑</view><view class="label"><text class="level">5A景区</text><view>自然风光</view><view>名胜古迹</view></view></view></view>

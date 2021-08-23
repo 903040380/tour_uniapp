@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "textup": "/components/sunui-grand/sunui-grand"
+  }
+}

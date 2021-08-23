@@ -1,0 +1,22 @@
+<template>
+	<view>
+		<web-view src="https://m.zjbyte.net/share/douyin/?token=ab74695745d6bf29ef0850e5eb856817&share_channel=copy"></web-view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>
